@@ -1,0 +1,46 @@
+.body{
+    font-family: sans-serif;
+}
+.mainheader img{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+.mainheader a{
+    text-decoration: none;
+    color: white;
+}
+.mainheader{
+    display: flex;
+    background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding-top: 2%;
+}
+.back{
+    background:
+  url(/assets/mainphoto.jpg) no-repeat center/cover;
+    height: 900px;
+}
+.navbar a{
+text-decoration: none;
+padding: 20px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar{
+    margin-left: 260px;
+}
+.reservebtn button{
+    color: white;
+    background-color: rgb(218, 100, 4);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 220px;
+}
