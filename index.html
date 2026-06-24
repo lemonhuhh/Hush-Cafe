@@ -1,33 +1,264 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/style/style.css">
-</head>
-<body>
-    <div class="back">
-    <header class="mainheader">
-        <div>
-            <img src="/assets/logo-removebg-preview.png" alt="logo of cafe">
-        </div>
-        <div><a href="index.html">Hush Cafe</a></div>
-        <nav class="navbar">
-  <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">Page</a></li>
-    <li><a href="">Menu</a></li>
-    <li><a href="">Order</a></li>
-    <li><a href="">Blog</a></li>
-    <li><a href="">Contact</a></li>
-    <li><a href="">Shop</a></li>
-  </ul>
-</nav>
-<div class="reservebtn">
-    <button><a href="#">Reservation</a></button>
-</div>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hush Cafe</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="/assets/logo-removebg-preview.png" alt="">
+     <h2 class="logo"><a href="/index.html">Hush Cafe</a></h2>
+     </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <button>Reservation</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Hush Cafe</h1>
+        <p>
+          A cozy place where coffee, comfort and peaceful moments come together.
+        </p>
+        <button><a href="#menu">Book A Table</a></button>
+
+        <button><a href="#menu">Explore Menu</a></button>
+      </div>
+    </section>
+
+
+    <!-- About Section -->
+
+    <section id="about" class="about">
+      <div>
+        <h2>About Hush Cafe</h2>
+
+        <p>
+           Hush Cafe is more than just a coffee shop; it is a place where people
+    come together to enjoy great coffee, delicious food, and peaceful moments.
+    We believe every cup tells a story, which is why we carefully choose
+    quality ingredients and prepare everything with passion.
+        </p>
+                <button>Read More</button>
+
+      </div>
+
+      <img src="/assets/aboutus.jpg" />
+  
+    </section>
+        <!-- Our Team -->
+<section>
+<div class="team">
+
+    <div class="team-image">
+        <img src="/assets/team.jpg" alt="Hush Cafe Team">
     </div>
-</body>
+
+    <div class="team-text">
+        <h2>Our Team</h2>
+        <p>
+            Behind every cup of coffee at Hush Cafe is a passionate team
+            dedicated to creating a warm atmosphere and serving memorable
+            experiences. Our skilled baristas and friendly staff make
+            every visit special.
+        </p>
+        <button>Read More</button>
+    </div>
+    </section>
+
+    <!-- Stats Section -->
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>1287<span>+</span></h2>
+        <p>Visitors Daily</p>
+    </div>
+
+
+    <div class="stat-box">
+        <h2>578<span>+</span></h2>
+        <p>Deliveries Monthly</p>
+    </div>
+
+
+    <div class="stat-box">
+        <h2>1440<span>+</span></h2>
+        <p>Positive Feedback</p>
+    </div>
+
+
+    <div class="stat-box">
+        <h2>40<span>+</span></h2>
+        <p>Awards And Honors</p>
+    </div>
+
+</section>
+
+</div>
+    <!-- Menu Section -->
+    <section id="menu">
+      <h2>Explore Our Menu</h2>
+
+      <div class="cards">
+        <div class="card">
+          <img
+            src="/assets/menu1.jpg"
+          />
+          <h3>Classic Coffee</h3>
+          <p>$4.00</p>
+          <button>Order Now</button>
+        </div>
+
+        <div class="card">
+          <img
+            src="/assets/menu2.jpg"
+          />
+          <h3>Chocolate Cake</h3>
+          <p>$5.50</p>
+                    <button>Order Now</button>
+        </div>
+
+        <div class="card">
+          <img
+            src="/assets/menu3.jpg"
+          />
+          <h3>Cappuccino</h3>
+          <p>$4.50</p>
+                    <button>Order Now</button>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+<section class="why-us">
+    <h2>Why Choose Hush Cafe?</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <h3>☕ Premium Coffee</h3>
+            <p>Freshly brewed coffee made with carefully selected quality beans.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>🌿 Cozy Atmosphere</h3>
+            <p>A peaceful space to relax, work, or enjoy time with friends.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>✨ Fresh Ingredients</h3>
+            <p>Delicious food prepared with fresh and high-quality ingredients.</p>
+        </div>
+
+        <div class="why-card">
+            <h3>❤️ Friendly Service</h3>
+            <p>Warm hospitality that makes every visit special.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+
+<section class="newsletter">
+
+    <p class="small-title">NEWSLETTER</p>
+
+    <h2>Subscribe Our Newsletter</h2>
+
+    <p>
+        Stay updated with our latest coffee flavors, special offers,
+        and cafe events. Join our Hush Cafe community and never miss
+        a fresh update.
+    </p>
+
+
+    <div class="newsletter-form">
+
+        <input type="email" placeholder="Enter your email">
+
+        <button>
+            Subscribe
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Footer Section -->
+<footer class="footer" id="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>☕ Hush Cafe</h2>
+            <p>
+                A cozy place where premium coffee, delicious food,
+                and peaceful moments come together.
+            </p>
+
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+
+
+        <div class="footer-box">
+            <h3>Opening Hours</h3>
+
+            <p>Monday - Friday</p>
+            <span>8:00 AM - 10:00 PM</span>
+
+            <p>Saturday - Sunday</p>
+            <span>9:00 AM - 11:00 PM</span>
+        </div>
+
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+
+
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+
+            <p>📍 123 Coffee Street, City Center</p>
+            <p>📞 +1 234 567 890</p>
+            <p>✉ hushcafe@email.com</p>
+
+            <div class="subscribe">
+                <input type="email" placeholder="Your Email">
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <p>© 2026 Hush Cafe. All Rights Reserved.</p>
+    </div>
+
+</footer>
+  </body>
 </html>
