@@ -72,6 +72,7 @@ a:hover {
 
 /* Hero */
 
+
 .hero {
   height: 100vh;
 
@@ -125,6 +126,13 @@ button a:hover{
    color: #f7f7f7;
 }
 
+.btn a{
+    color: white;
+
+}
+.btn a:hover{
+    color: #ffffff;
+}
 /* Stats Section */
 
 .stats {
